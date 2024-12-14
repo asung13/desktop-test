@@ -1,0 +1,657 @@
+.sarabun-thin {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 100;
+}
+
+.sarabun-extralight {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 200;
+}
+
+.sarabun-light {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 300;
+}
+
+.sarabun-regular {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+}
+
+.sarabun-medium {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 500;
+}
+
+.sarabun-semibold {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 600;
+}
+
+.sarabun-bold {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 700;
+}
+
+.sarabun-extrabold {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 800;
+}
+
+.sarabun-thin-italic {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.sarabun-extralight-italic {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.sarabun-light-italic {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.sarabun-regular-italic {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.sarabun-medium-italic {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.sarabun-semibold-italic {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.sarabun-bold-italic {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.sarabun-extrabold-italic {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.Aloha,
+.Passion,
+.Graphic,
+.Illustration,
+.Character_Desgin,
+.Freelance,.Illustrate,.COMMIS {
+    position: relative;
+    left: 10%;
+}
+
+.Aloha::after,.Illustrate::after,
+.Passion::after,
+.Graphic::after,
+.Illustration::after,
+.CD::after,
+.Freelance::after,.COMMIS::after {
+    content: '';
+    padding-right: 350px;
+    position: absolute;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+    transition: opacity .3s ease;
+}
+
+.Aloha:hover::after {
+    opacity: 1;
+    content: 'HELLO!';
+}
+
+.Passion:hover::after {
+    opacity: 1;
+    content: 'KONIKONI';
+}
+
+.Graphic:hover::after {
+    opacity: 1;
+    content: 'HAKULAU KAHUA';
+}
+
+.Illustration:hover::after {
+    opacity: 1;
+    content: 'KI\'I PENA';
+}
+.Illustrate:hover::after {
+    opacity: 1;
+    content: 'KI\'I PENA';
+}
+
+
+.CD:hover::after {
+    opacity: 1;
+    content: 'HAME\'E';
+}
+
+.Freelance:hover::after {
+    opacity: 1;
+    content: 'KU I KA HAI';
+}
+.COMMIS:hover::after {
+    opacity: 1;
+    content: 'KOMIKINA';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Lexend', sans-serif;
+    line-height: 1.6;
+}
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    width: 100%;
+    padding: 10px 20px;
+    z-index: 100;
+}
+
+.sticky-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.sticky-nav ul li {
+    margin-left: 20px;
+}
+
+.sticky-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+    padding: 40px;
+}
+
+.sticky-nav ul li a:hover {
+    color: #00edce;
+}
+
+.Banner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.Banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1 {
+    position: absolute;
+    top: 470px;
+    left: 20px;
+    transform: translateY(-50%);
+    font-size: 150px;
+    font-family: 'Lexend', serif;
+    color: white;
+    margin: 0;
+}
+
+.Banner .sub_txt {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 1px;
+}
+
+.s1 {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: rgb(109, 109, 109);
+}
+
+.s2 {
+    position: relative;
+    left: 1200px;
+    top: -15px;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: rgb(109, 109, 109);
+    z-index: 10000;
+}
+
+.thin-box {
+    width: 90%;
+    height: 2px;
+    background-color: white;
+    margin: 30px auto;
+    position: relative;
+    top: -5px;
+}
+
+.intro {
+    padding: 40px 20px;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: 'Lexend', serif;
+    color: white;
+}
+
+.Aloha {
+    font-size: 100px;
+    left: 10px;
+    position: relative; 
+    left: 40px;
+}
+
+.bio {
+    width: 100%;
+}
+
+.bio p {
+    position: relative;
+    left: 40px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+    max-width: 700px;
+}
+
+.intro h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: rgb(72, 72, 72);
+    margin-bottom: 10px;
+}
+
+.intro .left-align {
+    text-align: left;
+}
+
+.intro .right-align {
+    text-align: right;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-size: 1.1em;
+}
+
+.About {
+    top: 370px;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.image-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.image-item:hover {
+    transform: scale(1.9);
+    z-index: 10;
+}
+
+.image-item:hover img {
+    transform: scale(1.1);
+}
+
+.image-item:hover::after {
+    opacity: 1;
+}
+
+.second-nav {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: transparent;
+    color: #555;
+    font-family: 'Sarabun', sans-serif;
+    top: -10px;
+}
+
+.second-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.second-nav ul li {
+    display: inline-block;
+}
+
+.second-nav ul li a {
+    color: #555;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.second-nav ul li a:hover {
+    color: #00edce;
+}
+
+.Graphic,
+.Illustrate,
+.CD,
+.Passion {
+    font-size: 50px;
+    position: relative;
+    left: 20px;
+}
+
+.about {
+    padding: 40px 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: 'Lexend', serif;
+    color: white;
+    padding-right: 400px;
+    position: relative;
+    left:0px;
+}
+
+.aboutimg {
+    max-width: 500px;
+    position: relative;
+    left: 800px;
+    top: -700px;
+}
+
+.Passion {
+    position: relative;
+    top: -700px;
+    left: 50px;
+}
+
+.ABC {
+    position: relative;
+    top: -700px;
+    left: 30px;
+}
+
+.bbc {
+    position: relative;
+    top: 50px;
+}
+
+.CST{
+    position: relative;
+    left: 70px;
+    color: rgb(109, 109, 109);
+}
+
+.content-item{
+    position: relative;
+    left: 20px;
+    padding-right: 700px;
+}
+
+.CRS{
+    position: relative;
+    left: 50px;
+color:rgb(109, 109, 109)
+
+}
+
+.ART{
+   position: relative;
+    
+    top: 40px;
+    transform: translateY(-50%);
+    font-size: 50px;
+    font-family: 'Lexend', serif;
+    color: white;
+    margin: 0;
+}
+.GRD{
+    position: relative;
+    left: 70px;
+    padding: 10px;
+}
+
+
+.Contact{
+    max-width: 30px;
+} 
+
+
+a {
+    color: white; /* Default color (white) */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+} 
+
+a:hover {
+    color: rgb(0, 255, 247); /* Change color to blue on hover */
+}
+
+/* Optional: Additional styling for links (if desired) */
+a:focus, a:active {
+    outline: none; /* Remove focus outline */
+    color: rgb(0, 255, 225); /* Ensure color stays blue on active/focus states */
+}
+
+.COM {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Four columns */
+    grid-template-rows: repeat(4, auto);  /* Auto rows, this can be adjusted */
+    gap: 20px;
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    grid-template-areas: 
+        "image1 image2 image3 image4"
+        "image5 image6 image7 image8"
+        "image9 image10 image11 image12"
+        "image13 image14 image15 image16"
+        "image17 image18 image19 image20";
+}
+
+.image-item.COM {
+    position: relative;
+    left: 25%;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-item.COM img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.image-item.COM:hover {
+    transform: scale(1.05);
+    z-index: 10;
+}
+
+/* Example custom spans to create puzzle-like effect */
+.image-item.COM:nth-child(1) {
+    grid-area: image1;
+    grid-column: span 2;  /* This image spans across 2 columns */
+}
+
+.image-item.COM:nth-child(2) {
+    grid-area: image2;
+}
+
+.image-item.COM:nth-child(3) {
+    grid-area: image3;
+}
+
+.image-item.COM:nth-child(4) {
+    grid-area: image4;
+}
+
+.image-item.COM:nth-child(5) {
+    grid-area: image5;
+    grid-column: span 2;  /* This image spans across 2 columns */
+}
+
+.image-item.COM:nth-child(6) {
+    grid-area: image6;
+}
+
+.image-item.COM:nth-child(7) {
+    grid-area: image7;
+}
+
+.image-item.COM:nth-child(8) {
+    grid-area: image8;
+}
+
+.image-item.COM:nth-child(9) {
+    grid-area: image9;
+}
+
+.image-item.COM:nth-child(10) {
+    grid-area: image10;
+    grid-row: span 2;  /* This image spans across 2 rows */
+}
+
+.image-item.COM:nth-child(11) {
+    grid-area: image11;
+}
+
+.image-item.COM:nth-child(12) {
+    grid-area: image12;
+}
+
+.image-item.COM:nth-child(13) {
+    grid-area: image13;
+    grid-column: span 2;  /* This image spans across 2 columns */
+}
+
+.image-item.COM:nth-child(14) {
+    grid-area: image14;
+}
+
+.image-item.COM:nth-child(15) {
+    grid-area: image15;
+}
+
+.image-item.COM:nth-child(16) {
+    grid-area: image16;
+}
+
+.image-item.COM:nth-child(17) {
+    grid-area: image17;
+}
+
+.image-item.COM:nth-child(18) {
+    grid-area: image18;
+}
+
+.image-item.COM:nth-child(19) {
+    grid-area: image19;
+}
+
+.image-item.COM:nth-child(20) {
+    grid-area: image20;
+}
+
+/* Optional: Make the grid responsive */
+@media (max-width: 1024px) {
+    .COM {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns for tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .COM {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .COM {
+        grid-template-columns: 1fr; /* 1 column for mobile devices */
+    }
+}
+
+.ContactLarge{
+    position: relative;
+    top: -80px;
+}
+.boxin{
+    position: relative;
+    top: -150px;
+}
+
+.Getin{
+    position: relative;
+    left: 80px;
+    top: -50px;
+    transform: translateY(-50%);
+    font-size: 70px;
+    font-family: 'Lexend', serif;
+    color: white;
+    margin: 0;
+}
+.call{
+    position: relative;
+    left: 50px;
+    padding: 20px;
+   
+}
